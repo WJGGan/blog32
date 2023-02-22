@@ -30,7 +30,7 @@ lightgallery: true
 
 ---
 
-![runpyq](runonphone.gif)
+![runpyq](../runonphone.gif)
 ![pyq](../img/runonphone.gif)
 #### 每天下班后唯一的运动    
 -----[脑洞没边儿](../https://juuun.io/)
