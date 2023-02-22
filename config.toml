@@ -1,8 +1,9 @@
-baseURL = "https://hugo-paper.vercel.app/"
+
+baseURL = 'http://example.org/'
 # title = "Hugo Themes"
 author = "Steve Francia"
 copyright = "Copyright © 2008–2019, Steve Francia and the lee.so; all rights reserved."
-paginate = 3
+paginate = 5
 languageCode = "en"
 DefaultContentLanguage = "en"
 enableInlineShortcodes = true
@@ -12,8 +13,9 @@ ignoreErrors = ["error-remote-getjson"]
 
 # ------------------------------
 theme = "paper"
-title = "Paper"
-enableEmoji = true
+title = "GGan"
+
+enableEmoji=true
 [params]
   color = 'linen'
 
@@ -22,8 +24,8 @@ enableEmoji = true
   instagram = 'nan.xiaobei'
 
   avatar = 'nanxiaobei@gmail.com'
-  name = 'Lee'
-  bio = 'Discover fresh context'
+  name = 'Wang'
+  bio = '欢迎来到我的博客！记录一些杂七杂八的。'
 # ------------------------------
 
 # needed to  render raw HTML (e.g. <sub>, <sup>, <kbd>, <mark>)
@@ -44,6 +46,12 @@ enableEmoji = true
     name = "Contact"
     url = "/contact/"
     weight = 10
+   [[menu.main]]
+    weight = 10
+    identifier = "categories"
+    name = "Categories"
+    url = "/categories/"
+    title = ""
 
 [taxonomies]
 category = "categories"
